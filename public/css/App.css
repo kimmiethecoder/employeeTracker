@@ -14,3 +14,21 @@ body{
   h1,h2,h3,h4,h5,p {
     text-align: center;
   }
+
+  @media only screen and (max-width: 800px) {
+    .card-collection {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .card-collection {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    footer h5 {
+      font-variant: small-caps;
+    }
+  }
